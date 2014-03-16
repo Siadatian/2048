@@ -1,1 +1,62 @@
-"My GitHub Page" 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>2048</title>
+
+  <link href="2048/style/main.css" rel="stylesheet" type="text/css">
+  <link href="2048/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="2048/favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+  <div class="container center">
+    <div class="heading center">
+      <h1 class="title">2048</h1>
+    </div>
+    <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
+
+    <div class="game-container center">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Keep going</a>
+          <a class="retry-button">Try again</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"><a href="ai/index.html" class="link center">Solver</a></div>
+          <div class="grid-cell"><a href="2048/index.html" class="link center" id="m">2048</a></div>
+          <div class="grid-cell"><a href="multi/index.html" class="link center">Multiplayer</a></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+	<br/>
+	<br/>
+	<hr>
+	<p>
+    3 Version of this game collected by <a href="../index.html" target="_parent">Mahdi Siadatian.</a>
+    </p>
+	</div>
+
+  <script src="2048/js/animframe_polyfill.js"></script>
+  <script src="2048/js/keyboard_input_manager.js"></script>
+  <script src="2048/js/html_actuator.js"></script>
+  <script src="2048/js/grid.js"></script>
+  <!--<script src="2048/js/tile.js"></script>-->
+  <script src="2048/js/local_score_manager.js"></script>
+  <script src="2048/js/game_manager.js"></script>
+  <script src="2048/js/application.js"></script>
+</body>
+</html>
